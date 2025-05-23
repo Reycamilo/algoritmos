@@ -3,3 +3,8 @@
 ## Segundo periodo Academico 2025
 
 Este es mi primer repositorio de mi clase, empiezo a saber como funciona todo.
+
+### Temas
+-Javascript
+-HTML
+-CSS

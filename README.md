@@ -9,6 +9,3 @@ Este es mi primer repositorio de mi clase, empiezo a saber como funciona todo.
 -HTML
 -CSS
 
-## Titulo de prueba 
-
-Este solamente es una prueba

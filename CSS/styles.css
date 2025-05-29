@@ -1,0 +1,21 @@
+
+/**
+    SELECTORES : 
+        1. Etiquetas : body, p, vl,li table.
+        2.Clases : Inicias con un punto
+*/
+
+body {
+    background-color: yellow;
+    color: blue;
+    font-family: "Cascadia Code", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.contenido {
+    max-width: 600px;
+    margin: 50px 50px 50px 50px;
+}

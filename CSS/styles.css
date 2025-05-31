@@ -6,8 +6,8 @@
 */
 
 body {
-    background-color: yellow;
-    color: blue;
+    background-color: #1c1c1c;
+    color: white;
     font-family: "Cascadia Code", sans-serif;
     text-align: center;
     margin: 0;
@@ -18,4 +18,25 @@ body {
 .contenido {
     max-width: 600px;
     margin: 50px 50px 50px 50px;
+}
+
+h1 {
+    color: #ffcc00;
+}
+
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.hashtag {
+    color: #00cc66;
 }

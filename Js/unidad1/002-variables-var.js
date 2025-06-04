@@ -24,3 +24,15 @@ var disponible = true;
 console.log(disponible);
 
 var categoria = 'Panes', marca = "La polular", calificacion = 9;
+
+// Usar nombres descriptivos en el codigo, para facil comprension.
+// Formas de nombrar varibles : 
+
+// calme case
+var mascotaNombre;
+
+// Pascal Case
+var NombreMascota;
+
+// Snake case
+var nombre_mascota;

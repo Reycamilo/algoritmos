@@ -1,9 +1,11 @@
 const producto = "Monitor de 20\""
 console.log(producto);
+const x = 'variable para reemplazar'
 
 // Reemplazar texto por otro
 console.log(producto.replace('"', ' pulgadas'));
-  
+console.log(x.replace('para', 'por'));
+
 
 // extraer una parte de una cadena de texto
 console.log(producto.slice(0,10));

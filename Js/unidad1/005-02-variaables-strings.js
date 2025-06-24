@@ -11,7 +11,13 @@ console.log(producto.indexOf('27'));
 console.log(producto.indexOf(' '));
 console.log(producto.indexOf('tablet')); // No existe.Arroga valor -1.
 
+
 console.log(producto.includes("Monitor")); // Busca la palabra completa. ".includes"
+
+console.log(`\nSirve para contar los caracteres de un string\n`);
+const nombre = 'Jose Camilo Alvarado';
+console.log(nombre.length);
+console.log(nombre.indexOf('Camilo'));
 
 
 

@@ -32,15 +32,17 @@ const producto2 = {
 // console.log(producto2.informacion);
 // console.log(producto2.informacion.fabricacion);
 // console.log(producto2.informacion.fabricacion.pais);
+console.log(producto2.informacion.fabricacion.pais);
 
-const {nombre} = producto2;
-const {informacion } = producto2;
-const {informacion : {fabricacion}} = producto2;
-const {informacion : {fabricacion : {pais}}} = producto2;
+// // 
+// const {nombre} = producto2;
+// const {informacion } = producto2;
+// const {informacion : {fabricacion}} = producto2;
+// const {informacion : {fabricacion : {pais}}} = producto2;
 
-console.log(informacion);
-console.log(fabricacion);
-console.log(pais);
+// console.log(informacion);
+// console.log(fabricacion);
+// console.log(pais);
 
 
 

@@ -14,6 +14,8 @@ const producto = {
 producto.creadoPor = 'Juan Perez'
 console.log(producto);
 
+producto.fechaCaducidad = '12/2/2022'
+delete producto.fechaCaducidad
 // quitar
 delete producto.creadoPor
 console.log(producto);

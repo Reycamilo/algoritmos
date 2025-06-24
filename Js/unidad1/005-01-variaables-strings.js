@@ -13,4 +13,3 @@ console.log(producto_3);
 const producto_4 = new String('Monitor 23"')
 console.log(producto_4);
 
-

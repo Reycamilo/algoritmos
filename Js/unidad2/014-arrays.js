@@ -1,4 +1,5 @@
 
+// COMO BORRAR ELEMENTOS DE UN ARRAYS
 const producto = {
     nombre : 'Semitas',
     precio : 22,
@@ -23,14 +24,21 @@ const producto4 = {
     cantidad : 1,
 }
 
+const producto5 = {
+    nombre : 'Teclado',
+    precio : 4000,
+    cantidad : 3,
+}
+
 let resultado;
 
 resultado = [producto, producto2, producto3, producto4]
 // resultado = [...resultado, producto2]
 // resultado = [producto3, ...resultado]
 // resultado = [...resultado, producto4, ...resultado]
+resultado = [...resultado, producto5]
 
-console.log(resultado);
+// console.log(resultado);
 
 // ELEIMINAR ULTIMO ELEMENTO DEL ARREGLO
 // resultado.pop()
@@ -39,8 +47,14 @@ console.log(resultado);
 // resultado.shift()
 
 // ELIMAR UN ELEMENTO EN ESPECIFICO
-resultado.splice(1,1)
+// resultado.splice(1,1)
 
-console.table(resultado);
+// console.table(resultado);
 
+let frutas = ["manzana", "pepino", "uva", "tomate"]
+
+
+frutas.splice(0,1) // el primer valor indica la posicion, y el segundo valor indica cuantos elementos desde esa posicion quieres eliminar.
+
+console.log(frutas);
 

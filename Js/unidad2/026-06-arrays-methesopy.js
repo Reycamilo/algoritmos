@@ -26,3 +26,6 @@ let saludo = 'hola'
 
 console.log(saludo);
 
+console.log("Esto es una prueba desde linux");
+
+

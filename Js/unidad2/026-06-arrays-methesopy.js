@@ -21,3 +21,8 @@ resultado = meses.concat(messes2,messes3)
 resultado = [...meses, ...messes2, ...messes3]
 
 console.log(resultado);
+
+let saludo = 'hola'
+
+console.log(saludo);
+

@@ -32,10 +32,11 @@ const producto5 = {
 
 let resultado;
 
-resultado = [producto, producto2, producto3, producto4]
+resultado = [producto, producto2, producto3]
 // resultado = [...resultado, producto2]
 // resultado = [producto3, ...resultado]
 // resultado = [...resultado, producto4, ...resultado]
+// resultado = [...resultado, producto5]
 resultado = [...resultado, producto5]
 
 // console.log(resultado);
@@ -56,5 +57,36 @@ let frutas = ["manzana", "pepino", "uva", "tomate"]
 
 frutas.splice(0,1) // el primer valor indica la posicion, y el segundo valor indica cuantos elementos desde esa posicion quieres eliminar.
 
-console.log(frutas);
+// PRACTICA
+
+// console.log(frutas);
+
+// hace una copia temporal de algun arrays
+// const numero = [1,2]
+// const copia = [...numero]
+// console.log(copia);
+
+
+// podemos unir arrayas
+const a = [1,2]
+const b = [3,4]
+const c = [...a,...b]
+// console.log(c);
+
+// eliminar elementos de un arrays
+// c.pop()// elemina el ultimo elemento.
+// c.shift()// elimina el primer elemento.
+// c.splice(1,1)// quiere decir, desde la posicion 1 elimina un elemento.
+
+// let palabra = 'hola como estas'
+// let letras = [...palabra]
+// console.log(letras);
+
+let letras = [...'hola']
+console.log(letras);
+
+
+
+
+
 

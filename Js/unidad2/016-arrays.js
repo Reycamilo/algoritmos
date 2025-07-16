@@ -42,4 +42,59 @@ const pianos = [
 
 // FUNCION FLECAH =>
 // pianos.forEach(piano => console.log(piano))
-pianos.forEach((piano,indice) => console.log(indice,piano))
+// pianos.forEach((piano,indice) => console.log(indice,piano))
+
+// const numeros = [10,20,30]
+
+// numeros.forEach((numero) => {
+//     console.log(numero);
+    
+// })
+
+// numeros.forEach(function(numero) {
+//     let resultado = numero + 5
+//     console.log(resultado);
+    
+// })
+
+// const nombres = ['Juan', 'Pedro', 'Ana']
+
+// nombres.forEach(function(nombre) {
+//     console.log(`hola ${nombre}`);
+    
+// })
+
+// const frutas = ['banana', 'melon', 'manzana']
+
+// frutas.forEach(function(fruta,indice) {
+//     console.log(`${indice + 1}.${fruta}`);
+    
+// })
+
+let edades = [18,20,15]
+
+let masEdades = []
+
+masEdades.push(43,2,34)
+
+edades = [...edades,...masEdades]
+
+edades.forEach((edad) => {
+    if(edad >= 18) {
+        console.log(`${edad} es mayor de edad`);
+        
+    } else {
+        console.log(`${edad} es menor de edad`);
+
+    }
+} )
+
+// edades.forEach(function(edad) {
+//     if(edad >= 18) {
+//         console.log(`${edad} es mayor de edad.`);
+        
+//     } else {
+//         console.log(`${edad} es menor de edad.`);
+        
+// //     }
+// })

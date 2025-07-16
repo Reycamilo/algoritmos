@@ -7,7 +7,14 @@ const numeros = [100, 200, 300, 400, 500, [1000, 2000, 3000]]
 // cuanto es el tamano del arreglo usando length
 console.log(numeros.length);
 
-for (let i = 0; i < numeros.length; i++) {
+// for (let i = 0; i < numeros.length; i++) {
+//     console.log(numeros[i]);
+    
+// }
+
+console.log(numeros[3]);
+
+for (let i = 0 ; i < numeros.length; i++) {
     console.log(numeros[i]);
     
 }

@@ -12,3 +12,7 @@ console.table(meses)
 const deTodoUnPoco = ['Hola', 100, true, null, {nombre : 'juan', apellido : 'Perez'}]
 
 console.table(deTodoUnPoco);
+
+const arregloEjemplo = ['esto', 'es un ', 'arreglo.', {nombre : 'camilo', apellido: 'alvarado.'}]
+
+console.log(arregloEjemplo);

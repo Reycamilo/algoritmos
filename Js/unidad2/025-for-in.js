@@ -148,30 +148,67 @@ const personas = [{
   
 // }
 
-console.log('----------------------------------------------------');
+// console.log('----------------------------------------------------');
 
-const carro = {
-  modelo : 'L200',
-  year : 2005,
-  motor : '2.4'
-}
+// const carro = {
+//   modelo : 'L200',
+//   year : 2005,
+//   motor : '2.4'
+// }
 
-for(let propiedad in carro) {
-  console.log(propiedad);
+// for(let propiedad in carro) {
+//   console.log(propiedad);
   
-}
+// }
 
 
-console.log('--------------------------------------------------------');
+// console.log('--------------------------------------------------------');
 
-for(let propiedad in carro) {
-  console.log(carro[propiedad]);
+// for(let propiedad in carro) {
+//   console.log(carro[propiedad]);
   
-}
+// }
 
-console.log('----------------------------------------------------------');
+// console.log('----------------------------------------------------------');
 
-for(let [propiedad, valor] of Object.entries(carro)){
-  console.log(`${propiedad}: ${valor}`);
+// for(let [propiedad, valor] of Object.entries(carro)){
+//   console.log(`${propiedad}: ${valor}`);
+  
+// // }
+
+// const persona = {
+//   nombre: "Karen",
+//   edad: 24,
+//   genero: "F"
+// };
+
+// for ( let propiedad in persona) {
+//   console.log(`${propiedad} = ${persona[propiedad]}`);
+  
+// }
+
+// const estudiantes = [
+//   { nombre: "Carlos", edad: 22 },
+//   { nombre: "Juana", edad: 19 }
+// ];
+
+// for ( let estudiante of estudiantes) {
+//   for( let propiedad in estudiante) {
+//     console.log(`${propiedad} : ${estudiante[propiedad]}`);
+    
+//   }
+//     console.log('------------------');
+
+// }'
+
+const persona = {
+  nombre: "Camilo",
+  edad: 21,
+  ciudad: "Tegucigalpa",
+  ocupacion: "Estudiante"
+};
+
+for( let datos in persona) {
+  console.log(`${datos}: ${persona[datos]}`);
   
 }

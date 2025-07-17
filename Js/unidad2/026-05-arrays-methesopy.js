@@ -19,6 +19,11 @@ carrito.forEach((producto, index) => {
 })
 
 
-resultado = carrito.find(producto => producto.nombre === 'Televisor')
+// resultado = carrito.find(producto => producto.nombre === 'Televisor')
 
-console.log(resultado);
+let busqueda = carrito.findIndex(buscado => buscado.nombre === 'Teclado Mecanico')
+
+console.log(busqueda);
+
+
+

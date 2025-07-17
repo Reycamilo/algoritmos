@@ -12,19 +12,52 @@ const carrito = [
 
 
 
-meses.forEach(mes => {
-  if ( mes == nombreMes) {
-    console.log(`El mes ${nombreMes} existe.`);
+// // meses.forEach(mes => {
+// //   if ( mes == nombreMes) {
+// //     console.log(`El mes ${nombreMes} existe.`);
     
-  }
-})
+// //   }
+// // })
 
-const resultado = meses.includes(nombreMes)
-console.log(resultado);
+// const resultado = meses.includes(nombreMes)
+// // console.log(meses);
 
-const existe = carrito.some(producto => producto.nombre === 'Mouse')
+// // console.log(resultado);
 
-// console.log(existe);
+// const existe = carrito.some(producto => producto.nombre === 'Mouse')
 
-const existe2 = meses.some(mes => mes === nombreMes)
-console.log(existe2);
+// // console.log(existe);
+
+// const existe2 = meses.some(mes => mes === nombreMes)
+// // console.log(existe2);
+
+// const frutas = ["manzana", "pera", "uva"];
+
+// let prueba = frutas[2]
+
+// console.log("hola como estas".includes('hola'));
+
+// const usuarios = ["Karen", "Carlos", "Juana"];
+// const nombreIngresado = "Camilo";
+
+// if (usuarios.includes(nombreIngresado)) {
+//   console.log(`${nombreIngresado} es un empleado.`);
+  
+// } else {
+//   console.log(`${nombreIngresado} no es un empleado.`);
+  
+// }
+
+// const numeros = [2, 5, 8, 12, 3];
+
+// const numeroMayor = numeros.some(numero => 
+//   numero > 10
+// )
+
+// console.log(numeroMayor);
+
+const nombres = ["Carlos", "Karen", "Juana", "Pedro"];
+
+const inicial = nombres.some(inicial => inicial.startsWith('Ju'))
+
+console.log(inicial);

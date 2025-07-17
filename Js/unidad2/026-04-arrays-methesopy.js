@@ -17,4 +17,17 @@ resultado = carrito.filter(producto => producto.nombre === 'celular Samsung')
 
 resultado = carrito.filter(producto => producto.precio >= 2000 && producto.precio <= 7000)
 
-console.log(resultado);
+// console.log(resultado);
+const edades = [12, 25, 17, 30, 45, 15];
+
+const mayorEdad = edades.filter(edad => edad >= 18)
+
+// console.log(mayorEdad);
+
+const nombres = ["Juan", "Pedro", "Juana", "Luis", "Julia"];
+
+const inicial = nombres.filter(letra => letra.startsWith('J'))
+
+console.log(inicial);
+
+

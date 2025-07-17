@@ -12,15 +12,35 @@ const carrito = [
 
 
 const indice = meses.findIndex(mes => mes === nombreMes)
-console.log(indice);
+// console.log(indice);
 
 const indice2 = carrito.findIndex(producto => producto.precio === 6000)
 
-console.log(indice2);
+// console.log(indice2);
 
-meses.forEach((mes, index) => {
-  if(mes === nombreMes) {
-    console.log(`${nombreMes} encontrado en el indice ${index}`);
+// meses.forEach((mes, index) => {
+//   if(mes === nombreMes) {
+//     console.log(`${nombreMes} encontrado en el indice ${index}`);
     
-  }
-})
+//   }
+// })
+
+// const numeros = [5, 8, 12, 20, 3];
+
+// let numeroMayor = numeros.find(numero => numero >= 10)
+// console.log(numeroMayor);
+
+// const nombres = ["Carlos", "Juana", "Pedro", "Jorge"];
+
+// const inicial = nombres.find(inicial => inicial.startsWith('J'))
+// console.log(inicial);
+
+const personas = [
+  { nombre: "Karen", edad: 24 },
+  { nombre: "Camilo", edad: 21 },
+  { nombre: "Luis", edad: 30 }
+];
+
+let personaBuscada = personas.findIndex(persona => persona.edad >= 18)
+
+console.log(personaBuscada);

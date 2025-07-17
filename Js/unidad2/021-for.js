@@ -145,15 +145,21 @@ const personas = [{
         
 // }
 
+personas.forEach((persona,indice) => {
+  console.log(`${indice + 1}. ${persona.firstName} ${persona.lastName}`);
+  
+  
+})
+
 // porgrama de numero par e impar hasta el 20
 
 
-for( let i = 1; i <= 20 ; i++) {
-    if( (i % 2 ) === 0) {
-        console.log(`${i} es Par`);
+// for( let i = 1; i <= 20 ; i++) {
+//     if( (i % 2 ) === 0) {
+//         console.log(`${i} es Par`);
         
-    } else {
-        console.log(`${i} es Impar`);
+//     } else {
+//         console.log(`${i} es Impar`);
 
-    }
-}
+//     }
+// }

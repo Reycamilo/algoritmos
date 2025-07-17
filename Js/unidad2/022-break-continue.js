@@ -28,12 +28,28 @@
 // Entoces decimos buzz
 //Si tengo Multi.. 15 (30,45) FIZZ BUZZ
 
-for(let i = 0; i <= 100; i++) {
-  if( (i % 15 ) == 0) {
-    console.log(`- ${i} FIZZ BUZZ`);
-  } else if ( (i % 5) == 0) {
-    console.log(`- ${i} BUZZ`);
-  } else if ( (i % 3) == 0) {
-    console.log(`- ${i} FUZZ`);
+// for(let i = 0; i <= 100; i++) {
+//   if( (i % 15 ) == 0) {
+//     console.log(`- ${i} FIZZ BUZZ`);
+//   } else if ( (i % 5) == 0) {
+//     console.log(`- ${i} BUZZ`);
+//   } else if ( (i % 3) == 0) {
+//     console.log(`- ${i} FUZZ`);
+//   }
+// }
+
+for (let i = 0; i <= 100; i++) {
+  if (i % 15 === 0) {
+    console.log(`${i}. FIZZ BUZZ`);
+    
+  } else if ( i % 5 === 0) {
+    console.log(`${i}. BUZZ`);
+    
+  } else if (i % 3 === 0) {
+    console.log(`${i}. FIZZ`);
+    
+  } else {
+    console.log(i);
+    
   }
 }

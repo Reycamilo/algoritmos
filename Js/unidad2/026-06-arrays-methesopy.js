@@ -11,21 +11,27 @@ const carrito = [
   {nombre : 'Monitor', precio: 6000},
 ]
 
-let resultado;
+let resultado = carrito.every(producto => producto.precio < 3000)
 
-resultado = carrito.every(producto => producto.precio <= 2000)
-console.log(resultado);
+// console.log(resultado);
 
-resultado = meses.concat(messes2,messes3)
-
-resultado = [...meses, ...messes2, ...messes3]
-
-console.log(resultado);
-
-let saludo = 'hola'
-
-console.log(saludo);
-
-console.log("Esto es una prueba desde linux");
+let filtro = carrito.filter(producto => producto.precio <= 3000)
+console.log(filtro);
 
 
+
+// resultado = carrito.every(producto => producto.precio <= 2000)
+// // console.log(resultado);
+
+// resultado = meses.concat(messes2,messes3)
+
+// resultado = [...meses, ...messes2, ...messes3]
+
+// // console.log(resultado);
+
+
+// const numeros = [12, 25, 18, 30, 45];
+
+// let mayoresTen = numeros.every(numero => numero >= 10)
+
+// console.log(mayoresTen);

@@ -26,3 +26,4 @@ nav.addEventListener('dblclick', () => {
     console.log('Doble clic en navegación');
     
 }) 
+
